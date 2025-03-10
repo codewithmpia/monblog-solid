@@ -1,0 +1,13 @@
+Flask==3.1.0
+Flask-Admin==2.0.0a3
+flask-cors==5.0.1
+Flask-Login==0.6.3
+flask-marshmallow==1.3.0
+Flask-RESTful==0.3.10
+Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.2
+marshmallow-sqlalchemy==1.4.1
+PyMySQL==1.1.1
+python-dotenv==1.0.1
+python-slugify==8.0.4
+

@@ -1,0 +1,13 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+    <div class="bg-info py-3 px-3 text-white rounded">
+        <h3>Bonjour <span class="text-capitalize">{{ current_user.username }}</span></h3>
+    </div>
+
+    <p class="mt-4">Cliquer sur
+        <a href="{{ url_for('logout') }}" class="text-primary">déconnexion</a>
+        pour vous déconnecter.
+    </p>
+    </div>
+{% endblock %}
